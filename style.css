@@ -1,0 +1,282 @@
+body{
+  margin: 0;
+}
+.whole{
+  width: 1280px;
+  height: 1551px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #A3D1D1;
+}
+
+#point{
+  cursor: pointer;
+}
+
+/*header*/
+.header{
+  width: 1280px;
+  height: 150px;
+  background-color: #FFFFFF;
+}
+
+.logo{
+  width: 123px;
+  height: 46px;
+  margin-top: 29px;
+  margin-left: 35px;
+}
+
+.nav{
+  padding-right: 67px;
+  margin: 0;
+}
+
+.pro{
+  text-align: center;
+  line-height: 35px;
+  font-size: 24px;
+  font-family: Verdana;
+  color: #000000;
+  width: 125px;
+  height: 35px;
+  box-sizing: border-box;
+  border-color: #A3D1D1;
+  background-color: #A3D1D1;
+  margin-left: 22px;
+  margin-right: 1px;
+  margin-top: 29px;
+  margin-bottom: 8px;
+  float: left;
+}
+
+.link{
+  width: 37px;
+  height: 37px;
+  margin-left: 20px;
+  margin-top: 25px;
+  float: right;
+}
+/*header*/
+
+/*offer*/
+.offer{
+  width: 800px;
+  height: 60px;
+  background-color: #FFFFFF;
+  margin: 17px 472px 25px 22.5px;
+}
+
+.enter{
+  text-align: center;
+  line-height: 37px;
+  font-size: 24px;
+  font-family: Verdana;
+  color: #000000;
+  width: 163px;
+  height: 37px;
+  box-sizing: border-box;
+  border-color: #D1E9E9;
+  background-color: #D1E9E9;
+  margin: 11px 14px;
+  float: left;
+}
+
+.off{
+  text-align: center;
+  font-size: 24px;
+  font-family: Verdana;
+  color: #000000;
+  margin: 16px 30px;
+  float: left;
+}
+/*offer*/
+
+/*main*/
+.main{
+  position:relative;
+  width: 1280px;
+  height: 469px;
+}
+.main img{
+  position:absolute;
+  top:0px;
+  left:74px;
+  z-index:0;
+  width: 687px;
+  height: 438px;
+  margin-bottom: 31px;
+}
+
+.paragraph{
+  position:absolute;
+  top:69px;
+  left:706px;
+  z-index:1;
+  width: 500px;
+  height: 300px;
+  background-color: #FFFFFF;
+  float: left;
+}
+
+.title{
+  font-size: 36px;
+  font-family: Verdana;
+  color: #000000;
+  margin: 14px 9px 22px 9px;
+}
+.sub{
+  font-size: 24px;
+  font-family: Verdana;
+  color: #534646;
+  margin: 15px 9px 10px 9px;
+}
+.para{
+  font-size: 18px;
+  font-family: Verdana;
+  color: #918E8E;
+  line-height: 30px;
+  margin: 0px 9px;
+}
+/*main*/
+
+/*imformation*/
+.imfor{
+  width: 1280px;
+  height: 282px;
+}
+.long{
+  margin: 0 auto;
+  height: 0;
+  width: 1200px;
+  border-top: 0.5px solid #918E8E;
+  border-bottom: 0.5px solid #918E8E;
+}
+.left{
+  width: 591px;
+  margin-right: 40px;
+  float: left;
+}
+.str{
+  margin: 26px 0 0 0;
+  height: 180px;
+  width: 0;
+  border-left: 0.5px solid #918E8E;
+  border-right: 0.5px solid #918E8E;
+  float: left;
+}
+.right{
+  width: 637px;
+  float: left;
+}
+
+.p1{
+  margin: 30px 0 0 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: Verdana;
+  color: #000000;
+}
+.p2{
+  margin: 5px 0 0 0;
+  text-align: center;
+  font-size: 24px;
+  font-family: Verdana;
+  color: #000000;
+}
+.p3{
+  margin: 15px 0 0 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: Verdana;
+  color: #534646;
+}
+.btn{
+  margin: 15px auto 0 auto;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  font-family: Verdana;
+  color: #000000;
+  width: 261px;
+  height: 50px;
+  box-sizing: border-box;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+/*imformation*/
+
+/*discover*/
+.dis{
+  margin: 0 auto;
+  width: 1200px;
+}
+.short{
+  margin: 21px 0 0 0;
+  height: 0;
+  width: 480px;
+  border-top: 0.5px solid #918E8E;
+  border-bottom: 0.5px solid #918E8E;
+  float: left;
+}
+.dis p{
+  margin: 5px 52px 0 52px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Verdana;
+  color: #000000;
+  float: left;
+}
+/*discover*/
+
+/*picture*/
+.picture{
+  width: 1280px;
+  height: 490px;
+  padding: 0 73px;
+}
+.block{
+  width: 236px;
+  height: 490px;
+  float: left;
+  margin-right: 63px;
+}
+
+.block img{
+  width: 236px;
+  height: 300px;
+}
+.tag{
+  margin: 15px 0 0 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: Verdana;
+  color: #000000;
+}
+.con{
+  margin: 15px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: Verdana;
+  color: #534646;
+}
+/*picture*/
+
+/*footer*/
+.footer{
+  width: 1280px;
+  height: 100px;
+  margin: 0;
+  background-color: #A8E0AF;
+}
+
+.footer p{
+  text-align: center;
+  line-height: 100px;
+  font-size: 18px;
+  font-family: Verdana;
+  color: #534646;
+  width: 1280px;
+  height: 100px;
+  box-sizing: border-box;
+}
